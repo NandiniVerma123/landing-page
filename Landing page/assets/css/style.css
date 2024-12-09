@@ -1,0 +1,331 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Playfair Display", serif;
+}
+
+p {
+    font-family: "Nunito", sans-serif;
+}
+
+
+nav img {
+    height: 50px;
+    border-radius: 30px;
+    width: 100px;
+}
+
+nav ul {
+    font-weight: bold;
+}
+
+nav ul li {
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+nav .nav-link {
+    color: white;
+}
+
+.home {
+    background-image: url('../images/back.jpeg');
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    padding: 200px;
+    background-position: center;
+}
+
+.home h1 {
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+}
+
+.home p {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.home a {
+    text-decoration: none;
+    background-color: white;
+    padding: 20px 50px;
+    border-radius: 50px;
+    color: black;
+}
+
+.home .box {
+    margin: 50px;
+}
+
+.box .fa-solid:hover {
+    margin-left: 10px;
+}
+
+.home i {
+    color: black;
+}
+
+.secure {
+    padding: 80px;
+}
+
+.secure img {
+    height: 300px;
+    width: 400px;
+}
+
+.secure h1 {
+    font-size: 25px;
+}
+
+.one {
+    padding: 80px;
+}
+
+.one img {
+    height: 300px;
+    width: 400px;
+}
+
+.one h1 {
+    font-size: 25px;
+}
+
+.vpn {
+    padding: 80px;
+}
+
+.vpn img {
+    height: 300px;
+    width: 400px;
+}
+
+.vpn ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.vpn h1 {
+    font-size: 25px;
+}
+
+.vpn ul li {
+    margin-right: 20px;
+    background-color: gray;
+    height: 35px;
+    width: 60px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.vpn i {
+    font-size: 30px;
+    color: white;
+
+}
+
+.data {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.data h1 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.map {
+    background-image: url('../images/blob.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    padding: 80px;
+}
+
+.map .heading {
+    text-align: center;
+}
+
+.map a {
+    text-align: center;
+}
+
+.map .my-row {
+    margin-left: 80px;
+}
+
+.map .my-box {
+    margin-left: 150px;
+}
+
+@media (max-width: 1440px) {
+    .home {
+        padding: 150px;
+    }
+
+    .home h1 {
+        font-size: 50px;
+        color: white;
+        font-weight: bold;
+    }
+}
+
+
+@media(max-width : 786px) {
+    .home {
+        padding: 100px;
+    }
+
+    .home h1 {
+        font-size: 35px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .home a {
+        text-decoration: none;
+        background-color: white;
+        padding: 10px 30px;
+        border-radius: 50px;
+        color: black;
+        font-size: 15px;
+    }
+
+    .secure {
+        padding: 50px;
+    }
+
+    .secure img {
+        height: 200px;
+        width: 400px;
+    }
+
+    .one img {
+        height: 200px;
+        width: 400px;
+    }
+
+    .vpn img {
+        height: 200px;
+        width: 400px;
+    }
+
+    .vpn i {
+        font-size: 20px;
+    }
+
+    .map {
+        padding: 60px;
+    }
+
+    .map h1 {
+        font-size: 25px;
+    }
+
+}
+
+@media(max-width : 425px) {
+    .home {
+        padding: 60px;
+    }
+
+    .home a {
+        padding: 10px 20px;
+        border-radius: 50px;
+        font-size: 10px;
+    }
+
+    .home h1 {
+        padding-top: 50px;
+
+    }
+
+    .secure h1 {
+        margin-top: 20px;
+    }
+
+    .secure img {
+        width: 250px;
+    }
+
+    .home p {
+        font-size: 15px;
+    }
+
+    .one {
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    .one h1 {
+        margin-top: 20px;
+    }
+
+    .vpn {
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    .vpn h1 {
+        margin-top: 20px;
+    }
+
+    .vpn img {
+        width: 250px;
+    }
+
+    .secure {
+        padding: 0;
+        padding-top: 80px;
+    }
+
+    .one .text {
+        order: 1;
+    }
+
+    .one img {
+        width: 250px;
+    }
+
+    .order-md-1 {
+        order: 2;
+    }
+
+    .order-md-2 {
+        order: 1;
+    }
+
+    .data img {
+        height: 200px;
+    }
+
+    .map .my-box {
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .map .my-text{
+        margin-right: 20px;
+    }
+
+    nav img {
+        height: 50px;
+        border-radius: 30px;
+        width: 50px;
+    }
+}
